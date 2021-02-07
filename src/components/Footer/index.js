@@ -3,17 +3,17 @@ import React from "react";
 
 const styles = {
     footerStyle: {
-        background: "red"
+        background: "transparent"
     },
     footerFont: {
-        fontSize: 100
+        fontSize: 15
     }
 }
 
 function Footer() {
     return (
-        <footer style = {styles.headerStyle} className="footer">
-            <h1 style={styles.headingStyle}>Greg Leighton</h1>
+        <footer style = {styles.footerStyle} className="footer">
+            <h1 style={styles.footerFont}>Greg Leighton</h1>
             
         </footer>
     );
