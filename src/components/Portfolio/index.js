@@ -2,18 +2,17 @@ import React from "react";
 // import "./style.css"
 
 const styles = {
-    headerStyle: {
+    containerStyle: {
         background: "transparent"
     },
-    headingStyle: {
+    containerFont: {
         fontSize: 100
     }
 }
 
-function Header() {
+function Container() {
     return (
-        <header style={styles.headerStyle} className="header">
-            <h1 class="card-header" style={styles.headerStyle}>I'm Greg Leighton</h1>
+        <section style={styles.containerStyle} className="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand"><i>My portfolio</i></a>
@@ -26,7 +25,7 @@ function Header() {
                                 <a class="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
+                                <a class="nav-link">Projects</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Qualifications and CV</a>
@@ -35,8 +34,13 @@ function Header() {
                     </div>
                 </div>
             </nav>
-        </header>
+            <p>
+                Here you can find a list of selected projects I've made while honing my skills as a full-stack Web Developer. 
+            </p>
+
+        </section>
+
     );
 }
 
-export default Header;
+export default Container;
