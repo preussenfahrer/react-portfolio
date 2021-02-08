@@ -6,15 +6,16 @@ const styles = {
         background: "transparent"
     },
     headingStyle: {
-        fontSize: 100
+        background: "transparent",
+        fontSize: 44
     }
 }
 
 function Header() {
     return (
-        <header style={styles.headerStyle} className="header">
-            <h1 class="card-header" style={styles.headerStyle}>I'm Greg Leighton</h1>
-            <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <header style={styles.headerStyle} className="header margin-bottom">
+            <h1 class="card-header" style={styles.headingStyle}>I'm Greg Leighton</h1>
+            <nav class="navbar navbar-expand-md navbar-dark bg-primary margin-bottom">
                 <div class="container-fluid">
                     <a class="navbar-brand">My portfolio</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
