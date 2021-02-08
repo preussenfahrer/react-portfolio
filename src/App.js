@@ -1,7 +1,8 @@
 import './App.css';
 import Header from './components/Header/index'
 import Container from './components/Container/index';
-import Projects from "./components/Projects"
+import Projects from "./components/Projects";
+import CV from "./utils/WebDevResume.pdf"
 import Footer from './components/Footer/index';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
@@ -16,6 +17,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Container}/>
           <Route path="/Projects" component={Projects}/>
+          <Route path="/CV" component={CV}/>
         </Switch>
 
         <Footer />
