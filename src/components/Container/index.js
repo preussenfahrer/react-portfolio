@@ -1,6 +1,6 @@
 import React from "react";
 import CV from "../../utils/WebDevResume.pdf";
-import picture from "../../utils/Profile_pic.jpg"
+// import picture from "../../utils/Profile_pic.jpg"
 // import "./style.css"
 
 const styles = {

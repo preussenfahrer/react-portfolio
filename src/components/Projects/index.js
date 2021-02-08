@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../Container/index"
+
 // import "./style.css"
 
 const styles = {
@@ -15,7 +15,7 @@ function Projects() {
     return (
         <section style={styles.containerStyle} className="container">
             <p style={styles.containerFont}>
-                Here you can check out some of the projects I've made throughout the journey of honing my skills as a full-stack developer! Some of these apps are live, but others are just to demonstrate the skills I've learned. Feel free to check out the repos (and, if you want, fork them), live links, and video walk demos.
+                Here you can check out some of the projects I've made throughout the journey of honing my skills as a full-stack developer! Some of these apps are live, but others are just to demonstrate the skills I've learned. Feel free to check out the repos (and, if you want, fork them), live links, and video demos.
                 
             </p>
 
@@ -31,6 +31,7 @@ function Projects() {
 <div className="card">
   <div className="card-body">
     <h5 className="card-title">Shop-n-Chef</h5>
+
     <h6 className="card-subtitle mb-2 text-muted"><i>Turn your grocery list into a passport for new adventures!</i></h6>
     <p className="card-text">Shop-n-Chef is a disposable grocery shopping application where you can not just search for the groceries you need, but also get recipes on how to use them.</p>
     <a href="https://github.com/preussenfahrer/shop_n_chef" target="_blank" className="card-link">GitHub Repo</a>
