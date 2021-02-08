@@ -7,14 +7,14 @@ const styles = {
         background: "transparent"
     },
     containerFont: {
-        fontSize: 100
+        fontSize: 22
     }
 }
 
 function Projects() {
     return (
         <section style={styles.containerStyle} className="container">
-            <p>
+            <p style={styles.containerFont}>
                 Here you can check out some of the projects I've made throughout the journey of honing my skills as a full-stack developer! Some of these apps are live, but others are just to demonstrate the skills I've learned. Feel free to check out the repos (and, if you want, fork them), live links, and video walk demos.
                 
             </p>
