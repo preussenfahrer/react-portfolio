@@ -2,8 +2,9 @@
     {
       "id": 1,
       "name": "Plant-Scout",
+      "subtitle": "Let's go for a walk.",
       "image":
-        "../utils/PlantScoutScreenshot.png",
+        "./utils/PlantScoutScreenshot.png",
       "github": "https://github.com/preussenfahrer/plant-scout",
       "link": "https://karajsch.github.io/plant-scout/",
       "description": "PlantScout is a JavaScript based application that allows you to explore local plantlife in your region."
@@ -11,6 +12,7 @@
     {
       "id": 2,
       "name": "Shop-n-Chef",
+      "subtitle": "Turn your grocery list into a passport to cuisines from around the globe!",
       "image":
         "",
       "github": "https://github.com/preussenfahrer/shop_n_chef",
