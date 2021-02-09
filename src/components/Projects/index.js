@@ -1,7 +1,5 @@
 import React from "react";
 
-// import "./style.css"
-
 const styles = {
     containerStyle: {
         background: "transparent"
@@ -20,14 +18,14 @@ function Projects() {
             </p>
 
             <div className="card">
-  <div className="card-body">
-    <h5 className="card-title">Plant-Scout</h5>
-    <h6 className="card-subtitle mb-2 text-muted"><i>Let's go for a walk</i></h6>
-    <p className="card-text">PlantScout is a JavaScript based application that allows you to explore local plantlife in your region.</p>
-    <a href="https://github.com/preussenfahrer/plant-scout" target="_blank" className="card-link">GitHub Repo</a>
-    <a href="https://karajsch.github.io/plant-scout/" target="_blank" className="card-link">Deployed Application</a>
-  </div>
-</div>
+            <div className="card-body">
+            <h5 className="card-title">Plant-Scout</h5>
+            <h6 className="card-subtitle mb-2 text-muted"><i>Let's go for a walk</i></h6>
+            <p className="card-text">PlantScout is a JavaScript based application that allows you to explore local plantlife in your region.</p>
+            <a href="https://github.com/preussenfahrer/plant-scout" target="_blank" className="card-link">GitHub Repo</a>
+            <a href="https://karajsch.github.io/plant-scout/" target="_blank" className="card-link">Deployed Application</a>
+            </div>
+            </div>
 <div className="card">
   <div className="card-body">
     <h5 className="card-title">Shop-n-Chef</h5>
