@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Plant-Scout",
       "subtitle": "Let's go for a walk.",
-      "image":"../../utils/PlantScoutScreenshot.png",
+      "image":"../../utils/PlantScoutScreenshot.png/",
       "github": "https://github.com/preussenfahrer/plant-scout",
       "description": "PlantScout is a JavaScript based application that allows you to explore local plantlife in your region."
     },
@@ -11,42 +11,34 @@
       "id": 2,
       "name": "Shop-n-Chef",
       "subtitle": "Turn your grocery list into a passport to cuisines from around the globe!",
-      "image":
-        "./utils/Shop-N-ChefScreenshot.png",
       "github": "https://github.com/preussenfahrer/shop_n_chef",
       "description": "Shop-n-Chef is a disposable grocery shopping application where you can not just search for the groceries you need, but also get recipes on how to use them."
     },
     {
       "id": 3,
       "name": "PWA Budget Tracker",
-      "subtitle": "Keep track of where your money goes",
-      "image":
-        "./utils/BudgetTrackerScreenshot.png",
+      "subtitle": "The simplest definition of a budget is telling your money where to go.",
       "github": "https://github.com/preussenfahrer/Budget-Tracker",
       "description": "Budget-Tracker allows you to add and subtract expenses and monitor your spending, from anywhere, on any device."
     },
     {
         "id": 4,
         "name": "Employee Tracker",
-        "subtitle": "Track your employees",
-        "image":"/EmployeeTrackerScreenshot.png",
+        "subtitle": "Track your employees and their promotions!",
         "github": "https://github.com/preussenfahrer/EmployeeTracker",
         "description": "Keep track of the employees for your company with this CLI."
       },
       {
         "id": 5,
         "name": "Note-Taker",
-        "subtitle": "Write down your thoughts throughout the day",
-        "image":
-          "./utils/NotetakerappScreenshot.png",
+        "subtitle": "Keep a few notes on the good old days.",
         "github": "https://github.com/preussenfahrer/notetakerapp",
         "description": "Note-Taker is a simple app where you can make a list of things to do, or jot down random ideas you have throughout your day."
       },
       {
         "id": 6,
         "name": "Team Profile Generator",
-        "image":
-          "./utils/TPGScreenshot.png",
+        "subtitle": "Do great things together, as a team.",
         "github": "https://github.com/preussenfahrer/TeamProfileGenerator",
         "description": "TeamProfileGenerator (TPG) is CLI application where a user can generate an HTML page for a team of collaborators or members of a company."
       }

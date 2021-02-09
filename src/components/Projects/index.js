@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../Card/index";
 import projects from "../../projects.json"
 import "./style.css";
+// import "../utils/PlantScoutScreenshot.png"
 
 
 const styles = {
@@ -23,7 +24,7 @@ function Projects() {
           <Card 
           name={projects[0].name}
           subtitle={projects[0].subtitle}
-          image={projects[0].image}
+        //   image={projects[0].image}
           description={projects[0].description}
           github={projects[0].github}
           link={projects[0].link}
