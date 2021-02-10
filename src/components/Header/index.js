@@ -14,20 +14,20 @@ const styles = {
 function Header() {
     return (
         <header style={styles.headerStyle} className="header margin-bottom">
-            <h1 class="card-header" style={styles.headingStyle}>I'm Greg Leighton</h1>
-            <nav class="navbar navbar-expand-md navbar-dark bg-primary margin-bottom">
-                <div class="container-fluid">
-                    <a class="navbar-brand">My portfolio</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <h1 className="card-header" style={styles.headingStyle}>I'm Greg Leighton</h1>
+            <nav className="navbar navbar-expand-md navbar-dark bg-primary margin-bottom">
+                <div className="container-fluid">
+                    <Link to="/react-portfolio" className="navbar-brand">My portfolio</Link>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
                                 <Link to="/react-portfolio"><i>About Me</i>
                                 </Link>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link to="/Projects"><i>Project Portfolio</i>
                                 </Link>
                             </li>

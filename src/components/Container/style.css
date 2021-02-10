@@ -1,8 +1,10 @@
 .jumbotron {
     margin: 0 auto;
     float: none;
+    border-radius: 50%;
     height: auto;
     max-width: 500px;
+    margin: 20px 5px;
 }
 
 .img-fluid {
