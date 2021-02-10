@@ -10,7 +10,7 @@ const styles = {
         background: "transparent"
     },
     containerFont: {
-        fontSize: 100
+        fontSize: 24
     }
 }
 
