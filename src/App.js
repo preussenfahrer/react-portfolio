@@ -15,7 +15,7 @@ function App() {
         <Header />
 
         <Switch>
-          <Route path="/" exact component={Container}/>
+          <Route exact path="/" exact component={Container}/>
           <Route path="/Projects" component={Projects}/>
           <Route path="/CV" component={CV}/>
         </Switch>
