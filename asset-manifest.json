@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/preussenfahrer/react-portfolio/static/css/main.86589e60.chunk.css",
+    "main.js": "/preussenfahrer/react-portfolio/static/js/main.280b8eba.chunk.js",
+    "main.js.map": "/preussenfahrer/react-portfolio/static/js/main.280b8eba.chunk.js.map",
+    "runtime-main.js": "/preussenfahrer/react-portfolio/static/js/runtime-main.479ec550.js",
+    "runtime-main.js.map": "/preussenfahrer/react-portfolio/static/js/runtime-main.479ec550.js.map",
+    "static/css/2.aee256b2.chunk.css": "/preussenfahrer/react-portfolio/static/css/2.aee256b2.chunk.css",
+    "static/js/2.9f34176b.chunk.js": "/preussenfahrer/react-portfolio/static/js/2.9f34176b.chunk.js",
+    "static/js/2.9f34176b.chunk.js.map": "/preussenfahrer/react-portfolio/static/js/2.9f34176b.chunk.js.map",
+    "static/js/3.023ae5a3.chunk.js": "/preussenfahrer/react-portfolio/static/js/3.023ae5a3.chunk.js",
+    "static/js/3.023ae5a3.chunk.js.map": "/preussenfahrer/react-portfolio/static/js/3.023ae5a3.chunk.js.map",
+    "index.html": "/preussenfahrer/react-portfolio/index.html",
+    "static/css/2.aee256b2.chunk.css.map": "/preussenfahrer/react-portfolio/static/css/2.aee256b2.chunk.css.map",
+    "static/css/main.86589e60.chunk.css.map": "/preussenfahrer/react-portfolio/static/css/main.86589e60.chunk.css.map",
+    "static/js/2.9f34176b.chunk.js.LICENSE.txt": "/preussenfahrer/react-portfolio/static/js/2.9f34176b.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/preussenfahrer/react-portfolio/static/media/Backgroundpic.9d3e1c60.JPG",
+    "static/media/Profile_pic.66ca2956.jpg": "/preussenfahrer/react-portfolio/static/media/Profile_pic.66ca2956.jpg",
+    "static/media/WebDevResume.b5436b96.pdf": "/preussenfahrer/react-portfolio/static/media/WebDevResume.b5436b96.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.479ec550.js",
+    "static/css/2.aee256b2.chunk.css",
+    "static/js/2.9f34176b.chunk.js",
+    "static/css/main.86589e60.chunk.css",
+    "static/js/main.280b8eba.chunk.js"
+  ]
+}
