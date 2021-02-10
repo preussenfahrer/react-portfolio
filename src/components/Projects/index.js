@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../Card/index";
-import projects from "../../projects.json"
+import projects from "../../projects.json";
 import "./style.css";
 
 

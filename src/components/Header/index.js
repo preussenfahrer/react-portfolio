@@ -1,5 +1,5 @@
 import React from "react";
-// import "./style.css"
+import { Link } from "react-router-dom";
 
 const styles = {
     headerStyle: {
@@ -24,10 +24,12 @@ function Header() {
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/"><i>About Me</i></a>
+                                <Link to="/react-portfolio"><i>About Me</i>
+                                </Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/Projects"><i>Project Portfolio</i></a>
+                                <Link to="/Projects"><i>Project Portfolio</i>
+                                </Link>
                             </li>
                         </ul>
                     </div>

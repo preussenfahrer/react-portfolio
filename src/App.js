@@ -15,7 +15,7 @@ function App() {
         <Header />
 
         <Switch>
-          <Route exact path="/" component={Container}/>
+          <Route exact path="/react-portfolio" component={Container}/>
           <Route path="/Projects" component={Projects}/>
           <Route path="/CV" component={CV}/>
         </Switch>
