@@ -15,5 +15,5 @@
 
 .container-bgr{
     background-image: url(../../utils/Backgroundpic.JPG);
-    background-size: initial;
+    background-size: cover;
 }
